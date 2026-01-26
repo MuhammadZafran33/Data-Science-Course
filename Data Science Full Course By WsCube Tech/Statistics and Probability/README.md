@@ -9,9 +9,9 @@
 
 ```
 ╔════════════════════════════════════════════════════════════════╗
-║              COURSE COMPLETION PROGRESS (67%)                 ║
+║              COURSE COMPLETION PROGRESS (67%)                  ║
 ╠════════════════════════════════════════════════════════════════╣
-║ ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  ║
+║ ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░      ║
 ║ 🟢 Completed: 8/12  │ 🟡 In Progress: 3/12  │ 🔴 Pending: 1/12 ║
 ╚════════════════════════════════════════════════════════════════╝
 ```
@@ -95,18 +95,18 @@ Legend: █ = 1 hour
 ║                    STATUS BREAKDOWN                           ║
 ╠═══════════════════════════════════════════════════════════════╣
 ║                                                               ║
-║  ✅ COMPLETED (8 Modules)                                     ║
-║  └─ Ready for learning and practice                          ║
+║  ✅ COMPLETED (8 Modules)                                    ║
+║  └─ Ready for learning and practice                           ║
 ║                                                               ║
 ║  🔄 IN PROGRESS (3 Modules)                                   ║
-║  └─ Currently being developed                                ║
-║  └─ 50-75% complete                                          ║
+║  └─ Currently being developed                                 ║
+║  └─ 50-75% complete                                           ║
 ║                                                               ║
 ║  🟡 PLANNED (1 Module)                                        ║
-║  └─ Will start soon                                          ║
+║  └─ Will start soon                                           ║
 ║                                                               ║
-║  ⏳ COMING SOON (2 Modules)                                    ║
-║  └─ Development queue                                        ║
+║  ⏳ COMING SOON (2 Modules)                                   ║
+║  └─ Development queue                                         ║
 ║                                                               ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
