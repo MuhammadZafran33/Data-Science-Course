@@ -29,20 +29,20 @@
 
 ```
 ┏━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
-┃ # ┃ TOPIC ┃ STATUS ┃ % ┃
+┃ #    ┃ TOPIC                            ┃ STATUS     ┃   %   ┃
 ┡━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
-│ 01 │ Descriptive Statistics & Data │ ✅ Complete │ 100% │
-│ 02 │ Central Tendency (Mean, Median) │ ✅ Complete │ 100% │
-│ 03 │ Dispersion (Variance, Std Dev) │ ✅ Complete │ 100% │
-│ 04 │ Probability Fundamentals │ ✅ Complete │ 100% │
-│ 05 │ Probability Distributions │ 🔄 In Progress│ 75% │
-│ 06 │ Normal Distribution & Z-scores │ 🔄 In Progress│ 60% │
-│ 07 │ Hypothesis Testing (t-test) │ ✅ Complete │ 100% │
-│ 08 │ Confidence Intervals │ ✅ Complete │ 100% │
-│ 09 │ Correlation & Linear Regression │ 🔄 In Progress│ 50% │
-│ 10 │ Chi-Square & ANOVA Tests │ 🟡 Planned │ 25% │
-│ 11 │ Bayesian Statistics │ ⏳ Coming Soon │ 0% │
-│ 12 │ Time Series Analysis │ ⏳ Coming Soon │ 0% │
+│ 01 │ Descriptive Statistics & Data     │ ✅ Complete │ 100% │
+│ 02 │ Central Tendency (Mean, Median)   │ ✅ Complete │ 100% │
+│ 03 │ Dispersion (Variance, Std Dev)    │ ✅ Complete │ 100% │
+│ 04 │ Probability Fundamentals          │ ✅ Complete │ 100% │
+│ 05 │ Probability Distributions         │ 🔄 In Progress│ 75%│
+│ 06 │ Normal Distribution & Z-scores    │ 🔄 In Progress│ 60% │
+│ 07 │ Hypothesis Testing (t-test)       │ ✅ Complete │ 100% │
+│ 08 │ Confidence Intervals              │ ✅ Complete │ 100% │
+│ 09 │ Correlation & Linear Regression   │ 🔄 In Progress│ 50% │
+│ 10 │ Chi-Square & ANOVA Tests          │ 🟡 Planned   │ 25% │
+│ 11 │ Bayesian Statistics               │ ⏳ Coming Soon │ 0% │
+│ 12 │ Time Series Analysis              │ ⏳ Coming Soon │ 0% │
 └────┴───────────────────────────────┴──────────────┴─────┘
 ```
 
