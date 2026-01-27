@@ -516,7 +516,7 @@ We encourage contributions! Here's how you can help:
 ## 📞 Support & Community
 
 ### Get Help:
-- 📧 **Email**: muhammadzafran33@example.com (Replace with actual email)
+- 📧 **Email**: zafrankhaan33@gmail.com
 - 💬 **GitHub Issues**: Open an issue in the repository
 - 🤝 **Discussions**: Engage in community discussions
 - 📱 **Social Media**: Connect on LinkedIn, Twitter, etc.
