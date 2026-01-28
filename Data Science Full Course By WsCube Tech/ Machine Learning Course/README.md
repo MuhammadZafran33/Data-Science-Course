@@ -34,7 +34,7 @@ This is a comprehensive Machine Learning course designed for beginners to interm
 **Course Provider:** WsCube Tech  
 **Level:** Beginner to Advanced  
 **Duration:** Self-paced  
-**Language:** Python 3.8+
+**Language:** Python 3.8+                                                                                                                                                             
 **Start Date:** 27th January 2026
 ---
 
