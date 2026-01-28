@@ -35,7 +35,7 @@ This is a comprehensive Machine Learning course designed for beginners to interm
 **Level:** Beginner to Advanced  
 **Duration:** Self-paced  
 **Language:** Python 3.8+
-
+**Start Date:** 27th January 2026
 ---
 
 ## 🎓 Course Objectives
