@@ -573,11 +573,11 @@ in all copies or substantial portions of the Software.
 
 | Metric | Value |
 |--------|-------|
-| **Total Content** | 150+ Hours |
+| **Total Content** | 30+ Hours |
 | **Code Files** | 100+ |
 | **Projects** | 15+ |
 | **Topics** | 50+ |
-| **Last Updated** | 2024 |
+| **Last Updated** | 2026 |
 | **Community Size** | Growing! 🚀 |
 
 ---
