@@ -32,7 +32,7 @@ Whether you're a beginner looking to start your data science journey or an inter
 │  🎬 VIDEO LECTURES         100+                                │
 │  💻 HANDS-ON PROJECTS      15+                                 │
 │  🧠 CONCEPTS COVERED       50+                                 │
-│  ⏱️  TOTAL HOURS           150+                                │
+│  ⏱️  TOTAL HOURS           27+                                │
 │  🏆 SKILL LEVEL            Beginner → Advanced                 │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
