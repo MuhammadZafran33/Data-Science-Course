@@ -1,6 +1,6 @@
 # 🤖 Machine Learning Course - Complete Learning Guide
 
-A comprehensive machine learning course repository containing hands-on projects, detailed explanations, and practical implementations to master ML concepts from fundamentals to advanced techniques.
+A comprehensive machine learning course repository containing hands-on projects, detailed explanations, and practical implementations to master ML concepts from fundamentals to advanced techniques.                                  
 
 ---
 
