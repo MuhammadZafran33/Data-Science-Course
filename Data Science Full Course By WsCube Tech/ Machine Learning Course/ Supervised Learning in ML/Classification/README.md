@@ -172,17 +172,17 @@ START ──→ Fundamentals ──→ Algorithms ──→ Evaluation ──→
                             
     ┌─────────────────────────────────────────────────────┐
     │                                                     │
-    │  Linear Models          Tree-based    Ensemble    │
-    │  ─────────────          ──────────    ────────    │
-    │  • Logistic Reg.        • Decision T.  • RF        │
-    │  • Linear SVM           • Regression   • GB        │
-    │                         Tree           • XGBoost   │
-    │                                                    │
-    │  Distance-based         Probabilistic Kernel       │
-    │  ───────────────        ─────────────  ──────     │
-    │  • KNN                  • Naive Bayes  • SVM      │
-    │  • k-Medoids            • Bayesian Net • RBF      │
-    │                                                    │
+    │  Linear Models          Tree-based    Ensemble      │
+    │  ─────────────          ──────────    ────────      │
+    │  • Logistic Reg.        • Decision T.  • RF         │
+    │  • Linear SVM           • Regression   • GB         │
+    │                         Tree           • XGBoost    │
+    │                                                     │
+    │  Distance-based         Probabilistic Kernel        │
+    │  ───────────────        ─────────────  ──────       │
+    │  • KNN                  • Naive Bayes  • SVM        │
+    │  • k-Medoids            • Bayesian Net • RBF        │
+    │                                                     │
     └─────────────────────────────────────────────────────┘
 ```
 
