@@ -1,0 +1,149 @@
+<svg width="100%" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      @keyframes glow {
+        0%, 100% {
+          opacity: 0.5;
+          filter: blur(20px);
+        }
+        50% {
+          opacity: 1;
+          filter: blur(10px);
+        }
+      }
+
+      @keyframes float {
+        0%, 100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+      }
+
+      @keyframes pulse {
+        0%, 100% {
+          r: 80;
+          opacity: 0.6;
+        }
+        50% {
+          r: 120;
+          opacity: 0.2;
+        }
+      }
+
+      @keyframes shimmer {
+        0% {
+          stroke-dashoffset: 1000;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      @keyframes blink {
+        0%, 49% {
+          opacity: 1;
+        }
+        50%, 100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes colorShift {
+        0% { stop-color: #00d9ff; }
+        50% { stop-color: #ffbe0b; }
+        100% { stop-color: #00d9ff; }
+      }
+    </style>
+
+    <!-- Gradients -->
+    <radialGradient id="glow1" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00d9ff;stop-opacity:0" />
+    </radialGradient>
+
+    <radialGradient id="glow2" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#ff006e;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ff006e;stop-opacity:0" />
+    </radialGradient>
+
+    <radialGradient id="glow3" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#ffbe0b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffbe0b;stop-opacity:0" />
+    </radialGradient>
+
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffbe0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff006e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="600" fill="#0a0e27"/>
+
+  <!-- Animated glow circles -->
+  <circle cx="150" cy="150" r="80" fill="url(#glow1)" style="animation: pulse 4s ease-in-out infinite; animation-delay: 0s;"/>
+  <circle cx="1050" cy="450" r="100" fill="url(#glow2)" style="animation: pulse 5s ease-in-out infinite; animation-delay: 1s;"/>
+  <circle cx="600" cy="100" r="90" fill="url(#glow3)" style="animation: pulse 6s ease-in-out infinite; animation-delay: 2s;"/>
+
+  <!-- Main title with gradient -->
+  <text x="600" y="200" font-size="80" font-weight="900" text-anchor="middle" fill="url(#textGradient)" 
+    style="animation: slideIn 1s ease-out, float 4s ease-in-out infinite; animation-delay: 0s, 0.5s; font-family: 'Arial', sans-serif; letter-spacing: -2px;">
+    ML CLASSIFICATION
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="280" font-size="32" text-anchor="middle" fill="#00d9ff" 
+    style="animation: slideIn 1s ease-out 0.2s both, float 3s ease-in-out infinite 1.2s; font-family: 'Arial', sans-serif; letter-spacing: 2px;">
+    Master Machine Learning
+  </text>
+
+  <!-- Typing effect text -->
+  <text x="600" y="340" font-size="20" text-anchor="middle" fill="#ffbe0b" 
+    style="animation: slideIn 1s ease-out 0.4s both; font-family: monospace; letter-spacing: 1px;">
+    → Complete Course Contents ←
+  </text>
+
+  <!-- Blinking cursor -->
+  <line x1="765" y1="320" x2="765" y2="360" stroke="#ffbe0b" stroke-width="3" 
+    style="animation: blink 0.7s infinite; animation-delay: 0.6s;"/>
+
+  <!-- Decorative line under title -->
+  <line x1="300" y1="220" x2="900" y2="220" stroke="url(#textGradient)" stroke-width="3" opacity="0.5"
+    style="animation: shimmer 3s ease-in infinite;"/>
+
+  <!-- Floating badges -->
+  <g style="animation: float 3s ease-in-out infinite 0s;">
+    <rect x="320" y="420" width="120" height="40" rx="20" fill="none" stroke="#00d9ff" stroke-width="2"/>
+    <text x="380" y="450" font-size="14" text-anchor="middle" fill="#00d9ff" font-weight="bold" 
+      style="font-family: 'Arial', sans-serif; letter-spacing: 1px;">✓ Advanced</text>
+  </g>
+
+  <g style="animation: float 3s ease-in-out infinite 0.3s;">
+    <rect x="540" y="420" width="120" height="40" rx="20" fill="none" stroke="#ffbe0b" stroke-width="2"/>
+    <text x="600" y="450" font-size="14" text-anchor="middle" fill="#ffbe0b" font-weight="bold"
+      style="font-family: 'Arial', sans-serif; letter-spacing: 1px;">✓ Practical</text>
+  </g>
+
+  <g style="animation: float 3s ease-in-out infinite 0.6s;">
+    <rect x="760" y="420" width="140" height="40" rx="20" fill="none" stroke="#ff006e" stroke-width="2"/>
+    <text x="830" y="450" font-size="14" text-anchor="middle" fill="#ff006e" font-weight="bold"
+      style="font-family: 'Arial', sans-serif; letter-spacing: 1px;">✓ Production</text>
+  </g>
+
+  <!-- Bottom accent line -->
+  <line x1="200" y1="550" x2="1000" y2="550" stroke="url(#textGradient)" stroke-width="2" opacity="0.3"/>
+</svg>
