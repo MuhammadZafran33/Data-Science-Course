@@ -1,5 +1,8 @@
 # <div style="width: 100%;"><img src="animated-title.svg" style="width: 100%; max-width: 1000px;" alt="ML Classification">
 </div>
+
+
+
 <svg viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <defs>
     <style>
@@ -206,6 +209,9 @@
     </xhtml:div>
   </foreignObject>
 </svg>
+
+
+
 # <div style="width: 100%;"><img src="animated-title.svg" style="width: 100%; max-width: 1000px;" alt="ML Classification - Master Machine Learning"></div>
 
 ---
