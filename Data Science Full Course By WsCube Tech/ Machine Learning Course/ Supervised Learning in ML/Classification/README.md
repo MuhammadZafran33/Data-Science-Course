@@ -1,11 +1,6 @@
-# <div style="width: 100%;"><img src="animated-title.svg" style="width: 100%; max-width: 1000px;" alt="ML Classification - Master Machine Learning"></div>
-
-
-
+![ML Classification - Master Machine Learning](animated-header-working.svg)
 
 ---
-
-
 
 ## 📚 Course Overview
 
@@ -72,20 +67,14 @@ This comprehensive **Machine Learning Classification Course** teaches you everyt
 
 ## 🛠️ Tech Stack
 
-```
-┌─────────────────────────────────────────────────┐
-│           TECHNOLOGIES & LIBRARIES              │
-├─────────────────────────────────────────────────┤
-│  Python 3.8+        │  Core Programming       │
-│  Pandas             │  Data Manipulation      │
-│  NumPy              │  Numerical Computing    │
-│  Scikit-Learn       │  ML Algorithms          │
-│  TensorFlow/Keras   │  Deep Learning          │
-│  Matplotlib         │  Visualization          │
-│  Seaborn            │  Statistical Plots      │
-│  Jupyter Notebook   │  Development Environment│
-└─────────────────────────────────────────────────┘
-```
+- **Python 3.8+** - Core Programming Language
+- **Pandas** - Data Manipulation & Analysis
+- **NumPy** - Numerical Computing
+- **Scikit-Learn** - Machine Learning Algorithms
+- **TensorFlow/Keras** - Deep Learning
+- **Matplotlib** - Data Visualization
+- **Seaborn** - Statistical Plotting
+- **Jupyter Notebook** - Development Environment
 
 ---
 
@@ -154,23 +143,23 @@ This comprehensive **Machine Learning Classification Course** teaches you everyt
 ```
 START
   ↓
-Review Prerequisites (Python, Statistics)
+Prerequisites Review
   ↓
-Module 1: Learn Classification Fundamentals
+Module 1: Fundamentals
   ↓
-Module 2: Implement Core Algorithms
+Module 2: Core Algorithms
   ↓
-Module 3: Advanced Techniques & Optimization
+Module 3: Advanced Techniques
   ↓
-Module 4: Master Evaluation & Metrics
+Module 4: Evaluation & Metrics
   ↓
-Module 5: Feature Engineering Mastery
+Module 5: Feature Engineering
   ↓
-Module 6: Build Real-World Projects
+Module 6: Real-World Projects
   ↓
-Deploy & Optimize Models
+Deploy & Optimize
   ↓
-CERTIFICATION → MASTERY 🏆
+MASTERY 🏆
 ```
 
 ---
@@ -183,53 +172,18 @@ CERTIFICATION → MASTERY 🏆
 - **Multi-label Classification**: Multiple labels per sample
 
 ### Important Metrics
-- **Accuracy**: Overall correctness (use carefully!)
-- **Precision**: True Positives / Predicted Positives (minimize false alarms)
-- **Recall**: True Positives / Actual Positives (catch all positives)
+- **Accuracy**: Overall correctness
+- **Precision**: True Positives / Predicted Positives
+- **Recall**: True Positives / Actual Positives
 - **F1-Score**: Harmonic mean of Precision and Recall
 - **AUC-ROC**: Probability model quality metric
 
 ### Common Challenges
-- ✓ Imbalanced Datasets
-- ✓ Feature Scaling
-- ✓ Overfitting & Underfitting
-- ✓ Hyperparameter Selection
-- ✓ Computational Complexity
-
----
-
-## 📁 Project Structure
-
-```
-ML-Classification-Course/
-├── 01-Fundamentals/
-│   ├── notebooks/
-│   ├── datasets/
-│   └── README.md
-├── 02-Algorithms/
-│   ├── Logistic-Regression/
-│   ├── Decision-Trees/
-│   ├── Random-Forest/
-│   └── ...
-├── 03-Advanced/
-│   ├── Gradient-Boosting/
-│   ├── XGBoost/
-│   └── Neural-Networks/
-├── 04-Evaluation/
-│   ├── metrics-guide/
-│   └── validation-techniques/
-├── 05-FeatureEngineering/
-│   ├── EDA-notebooks/
-│   └── scaling-encoding/
-├── 06-Projects/
-│   ├── Beginner-Projects/
-│   ├── Intermediate-Projects/
-│   └── Advanced-Projects/
-└── resources/
-    ├── cheat-sheets/
-    ├── theory-notes/
-    └── useful-links.md
-```
+- Imbalanced Datasets
+- Feature Scaling
+- Overfitting & Underfitting
+- Hyperparameter Selection
+- Computational Complexity
 
 ---
 
@@ -261,8 +215,8 @@ source ml-env/bin/activate  # On Windows: ml-env\Scripts\activate
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/YourUsername/ML-Classification-Course.git
-cd ML-Classification-Course
+git clone https://github.com/MuhammadZafran33/Data-Science-Course.git
+cd Data-Science-Course
 
 # Install required packages
 pip install -r requirements.txt
@@ -271,10 +225,10 @@ pip install -r requirements.txt
 ### Running Examples
 ```bash
 # Navigate to a module
-cd 02-Algorithms/Logistic-Regression
+cd Classification
 
 # Run the notebook
-jupyter notebook logistic_regression.ipynb
+jupyter notebook
 ```
 
 ---
@@ -303,16 +257,16 @@ jupyter notebook logistic_regression.ipynb
 
 After completing this course, you will:
 
-✅ **Understand** classification theory and mathematics  
-✅ **Implement** 15+ different classification algorithms  
-✅ **Preprocess** data effectively for classification  
-✅ **Engineer** features that improve model performance  
-✅ **Evaluate** models using appropriate metrics  
-✅ **Optimize** hyperparameters systematically  
-✅ **Build** end-to-end classification pipelines  
-✅ **Deploy** models to production environments  
-✅ **Handle** real-world challenges and edge cases  
-✅ **Communicate** results to stakeholders  
+✅ Understand classification theory and mathematics  
+✅ Implement 15+ different classification algorithms  
+✅ Preprocess data effectively for classification  
+✅ Engineer features that improve model performance  
+✅ Evaluate models using appropriate metrics  
+✅ Optimize hyperparameters systematically  
+✅ Build end-to-end classification pipelines  
+✅ Deploy models to production environments  
+✅ Handle real-world challenges and edge cases  
+✅ Communicate results to stakeholders  
 
 ---
 
@@ -370,6 +324,6 @@ Made with ❤️ for Data Science Enthusiasts
 
 ⭐ Star this repo if you find it helpful!
 
-[⬆ Back to Top](#ml-classification)
+[⬆ Back to Top](#course-overview)
 
 </div>
