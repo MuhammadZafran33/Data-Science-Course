@@ -1,4 +1,211 @@
-# <div style="width: 100%;"><img src="animated-title.svg" style="width: 100%; max-width: 1000px;" alt="ML Classification"></div>
+# <div style="width: 100%;"><img src="animated-title.svg" style="width: 100%; max-width: 1000px;" alt="ML Classification">
+</div>
+<svg viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+      
+      body {
+        margin: 0;
+        padding: 20px;
+        background: linear-gradient(135deg, #0a0e27 0%, #16213e 50%, #0f3460 100%);
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .hero-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+      }
+
+      /* Animated background circles */
+      .bg-circle {
+        position: absolute;
+        border-radius: 50%;
+        opacity: 0.15;
+        filter: blur(40px);
+      }
+
+      .circle-1 {
+        width: 300px;
+        height: 300px;
+        background: #00d9ff;
+        top: -100px;
+        left: -100px;
+        animation: float1 8s ease-in-out infinite;
+      }
+
+      .circle-2 {
+        width: 400px;
+        height: 400px;
+        background: #ff006e;
+        top: 50%;
+        right: -150px;
+        animation: float2 10s ease-in-out infinite;
+      }
+
+      .circle-3 {
+        width: 300px;
+        height: 300px;
+        background: #ffbe0b;
+        bottom: -100px;
+        left: 10%;
+        animation: float3 12s ease-in-out infinite;
+      }
+
+      @keyframes float1 {
+        0%, 100% { transform: translate(0, 0) scale(1); }
+        50% { transform: translate(30px, -50px) scale(1.1); }
+      }
+
+      @keyframes float2 {
+        0%, 100% { transform: translate(0, 0) scale(1); }
+        50% { transform: translate(-30px, -50px) scale(1.1); }
+      }
+
+      @keyframes float3 {
+        0%, 100% { transform: translate(0, 0) scale(1); }
+        50% { transform: translate(0, -30px) scale(1.1); }
+      }
+
+      /* Title styles */
+      .main-title {
+        font-size: 64px;
+        font-weight: 900;
+        text-align: center;
+        letter-spacing: -2px;
+        margin: 0;
+        position: relative;
+        z-index: 10;
+        background: linear-gradient(45deg, #00d9ff, #ffbe0b, #ff006e, #00d9ff);
+        background-size: 300% 300%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: gradientShift 8s ease infinite, titleGlow 3s ease-in-out infinite;
+      }
+
+      @keyframes gradientShift {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+
+      @keyframes titleGlow {
+        0%, 100% { 
+          text-shadow: 0 0 20px rgba(0, 217, 255, 0.4), 0 0 40px rgba(0, 217, 255, 0.2);
+          filter: drop-shadow(0 0 20px rgba(0, 217, 255, 0.4));
+        }
+        50% { 
+          text-shadow: 0 0 30px rgba(0, 217, 255, 0.6), 0 0 60px rgba(0, 217, 255, 0.3);
+          filter: drop-shadow(0 0 30px rgba(0, 217, 255, 0.6)) drop-shadow(0 0 60px rgba(0, 217, 255, 0.3));
+        }
+      }
+
+      /* Subtitle */
+      .subtitle {
+        font-size: 24px;
+        color: #00d9ff;
+        text-align: center;
+        margin-top: 15px;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 10;
+        animation: slideInUp 1s ease-out 0.3s both;
+      }
+
+      @keyframes slideInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Typing cursor */
+      .typing-line {
+        font-size: 16px;
+        color: #ffbe0b;
+        margin-top: 20px;
+        letter-spacing: 1px;
+        position: relative;
+        z-index: 10;
+      }
+
+      .cursor {
+        display: inline-block;
+        width: 2px;
+        height: 20px;
+        background: #ffbe0b;
+        margin-left: 5px;
+        animation: blink 0.7s infinite;
+      }
+
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      /* Floating badges */
+      .badges-container {
+        display: flex;
+        gap: 15px;
+        margin-top: 30px;
+        justify-content: center;
+        position: relative;
+        z-index: 10;
+        flex-wrap: wrap;
+      }
+
+      .badge {
+        padding: 8px 16px;
+        border-radius: 20px;
+        background: rgba(0, 217, 255, 0.15);
+        border: 1px solid #00d9ff;
+        color: #00d9ff;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        animation: floatUp 3s ease-in-out infinite;
+      }
+
+      .badge:nth-child(2) { animation-delay: 0.3s; }
+      .badge:nth-child(3) { animation-delay: 0.6s; }
+
+      @keyframes floatUp {
+        0%, 100% { transform: translateY(0); opacity: 0.8; }
+        50% { transform: translateY(-15px); opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <foreignObject x="0" y="0" width="1000" height="400">
+    <xhtml:div class="hero-container">
+      <div class="bg-circle circle-1"></div>
+      <div class="bg-circle circle-2"></div>
+      <div class="bg-circle circle-3"></div>
+
+      <h1 class="main-title">ML CLASSIFICATION</h1>
+      <p class="subtitle">Master Machine Learning | From Basics to Production</p>
+      <p class="typing-line">→ Complete Course Contents <span class="cursor"></span></p>
+
+      <div class="badges-container">
+        <span class="badge">✓ Advanced</span>
+        <span class="badge">✓ Practical</span>
+        <span class="badge">✓ Industry Ready</span>
+      </div>
+    </xhtml:div>
+  </foreignObject>
+</svg>
 # <div style="width: 100%;"><img src="animated-title.svg" style="width: 100%; max-width: 1000px;" alt="ML Classification - Master Machine Learning"></div>
 
 ---
