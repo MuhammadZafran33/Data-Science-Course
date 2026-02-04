@@ -53,13 +53,13 @@
 
 ```
 ┌─────────────────────────────────────────┐
-│  📈 Performance Metrics & Techniques   │
+│  📈 Performance Metrics & Techniques    │
 ├─────────────────────────────────────────┤
-│  ✓ Confusion Matrix                    │
-│  ✓ Accuracy, Precision, Recall, F1    │
-│  ✓ ROC Curves & AUC Scores            │
-│  ✓ Cross-Validation Techniques         │
-│  ✓ Hyperparameter Tuning               │
+│  ✓ Confusion Matrix                     │
+│  ✓ Accuracy, Precision, Recall, F1      │
+│  ✓ ROC Curves & AUC Scores              │
+│  ✓ Cross-Validation Techniques          │
+│  ✓ Hyperparameter Tuning                │
 └─────────────────────────────────────────┘
 ```
 
