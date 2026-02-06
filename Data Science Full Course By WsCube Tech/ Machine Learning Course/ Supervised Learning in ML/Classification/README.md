@@ -295,7 +295,7 @@ We welcome contributions! Please:
 
 - **Issues**: Report bugs or request features
 - **Discussions**: Ask questions and share knowledge
-- **Email**: contact@example.com
+- **Email**: zafrankhaan33.com
 - **Forum**: Join our learning community
 
 ---
