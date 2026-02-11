@@ -3,4 +3,4 @@
 ### 1. EL through Regression method.
 ### 2. EL thorugh Classification method.
 ### 3. And all the Algorithms methods i used.
-### 4. INSHALLAH
+### 4. INSHALLAH will move forawrd to deep Learning.. 
