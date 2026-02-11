@@ -2,4 +2,4 @@
 ## Ensemble Learning have only two methods to finds best Algorithms.
 ### 1. EL through Regression method.
 ### 2. EL thorugh Classification method.
-### And all the Algorithms methods i used.
+### 3. And all the Algorithms methods i used.
