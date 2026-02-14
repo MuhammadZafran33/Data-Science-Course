@@ -102,19 +102,19 @@ Clustering is the task of grouping similar data points together without predefin
 │                    CLUSTERING ALGORITHMS                       │
 ├────────────────────────────────────────────────────────────────┤
 │                                                                │
-│  K-MEANS CLUSTERING        HIERARCHICAL CLUSTERING            │
-│  ├─ Time: O(n·k·i)         ├─ Time: O(n² to n³)              │
-│  ├─ Space: O(n·k)          ├─ Space: O(n²)                   │
-│  ├─ Scalability: High       ├─ Scalability: Low               │
-│  ├─ Clusters: Spherical     ├─ Clusters: Dendrogram          │
-│  └─ Best for: Large data    └─ Best for: Small data          │
+│  K-MEANS CLUSTERING        HIERARCHICAL CLUSTERING             │
+│  ├─ Time: O(n·k·i)         ├─ Time: O(n² to n³)                │
+│  ├─ Space: O(n·k)          ├─ Space: O(n²)                     │
+│  ├─ Scalability: High       ├─ Scalability: Low                │
+│  ├─ Clusters: Spherical     ├─ Clusters: Dendrogram            │
+│  └─ Best for: Large data    └─ Best for: Small data            │
 │                                                                │
-│  DBSCAN                    GAUSSIAN MIXTURE MODELS            │
-│  ├─ Time: O(n log n)       ├─ Time: O(n·k·i)                 │
-│  ├─ Space: O(n)            ├─ Space: O(n·k)                  │
-│  ├─ Scalability: Medium     ├─ Scalability: Medium            │
-│  ├─ Clusters: Any shape     ├─ Clusters: Probabilistic       │
-│  └─ Best for: Arbitrary     └─ Best for: Soft clustering     │
+│  DBSCAN                    GAUSSIAN MIXTURE MODELS             │
+│  ├─ Time: O(n log n)       ├─ Time: O(n·k·i)                   │
+│  ├─ Space: O(n)            ├─ Space: O(n·k)                    │
+│  ├─ Scalability: Medium     ├─ Scalability: Medium             │
+│  ├─ Clusters: Any shape     ├─ Clusters: Probabilistic         │
+│  └─ Best for: Arbitrary     └─ Best for: Soft clustering       │
 │     density shapes                                             │
 │                                                                │
 └────────────────────────────────────────────────────────────────┘
