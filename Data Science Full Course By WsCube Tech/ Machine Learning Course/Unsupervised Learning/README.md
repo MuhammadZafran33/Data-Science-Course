@@ -24,15 +24,15 @@ This course provides a comprehensive exploration of unsupervised learning techni
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│        UNSUPERVISED LEARNING LANDSCAPE                 │
+│        UNSUPERVISED LEARNING LANDSCAPE                  │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  🎯 GOAL: Find Hidden Patterns in Unlabeled Data      │
+│ 🎯 GOAL: Find Hidden Patterns in Unlabeled Data        │
 │                                                         │
-│  ├─ Clustering      → Group similar data points        │
-│  ├─ Dimensionality  → Reduce feature complexity        │
+│  ├─ Clustering      → Group similar data points         │
+│  ├─ Dimensionality  → Reduce feature complexity         │
 │  │  Reduction                                           │
-│  └─ Association     → Discover relationships           │
+│  └─ Association     → Discover relationships            │
 │     Rules                                               │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
