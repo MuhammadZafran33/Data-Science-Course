@@ -71,14 +71,14 @@ pie title "Machine Learning Course Distribution"
 
 ═══════════════════════════════════════════════════════════════════════════
 
-## PHASE 1: FOUNDATIONS (Week 1-4)
-├─ W1-2: Python Review & NumPy
-│  Progress: ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 8% ✅
-│  Skills: Variables, Functions, Loops, OOP
-│
-└─ W3-4: Pandas & Data Science
-   Progress: ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░ 15% ✅
-   Skills: DataFrame, Groupby, Merge, EDA
+## PHASE 1: FOUNDATIONS (Week 1-4)                                                                                                                                             
+├─ W1-2: Python Review & NumPy                                                                                                                                       
+│  Progress: ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 8% ✅                                                                                                                        
+│  Skills: Variables, Functions, Loops, OOP                                                                                                                                           
+│                                                                                                                                                                                      
+└─ W3-4: Pandas & Data Science                                                                                                                                                             
+   Progress: ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░ 15% ✅                                                                                                                              
+   Skills: DataFrame, Groupby, Merge, EDA                                                                                                                                                
    
 **Status:** ✅ Complete
 
