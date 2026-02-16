@@ -67,33 +67,34 @@ pie title "Machine Learning Course Distribution"
 ```
 
 ---
-
-## 📚 Learning Path Timeline
-
-
-```mermaid
-timeline
+# Learning Path
+gantt
     title 24-Week ML Learning Journey
-    section Phase 1: Foundations
-        W1-2 : Python Review
-        W3-4 : Data Science Basics
-    section Phase 2: Supervised
-        W5-6 : Regression Mastery
-        W7-8 : Classification
-        W9-10 : Decision Trees
-    section Phase 3: Ensemble
-        W11-12 : Bagging & Boosting
-        W13 : Hyperparameter Tuning
-    section Phase 4: Unsupervised
-        W14-15 : Clustering
-        W16 : Dimensionality Reduction
-    section Phase 5: Advanced
-        W17-20 : Time Series, NLP, Vision
-        W21-23 : Deep Learning
-    section Phase 6: Capstone
-        W24 : End-to-End Projects
-
-```
+    dateFormat YYYY-MM-DD
+    
+    section Phase 1
+    Python Review :active, p1a, 2024-01-01, 2w
+    Data Science Basics :p1b, 2024-01-15, 2w
+    
+    section Phase 2
+    Regression Mastery :p2a, 2024-01-29, 2w
+    Classification :p2b, 2024-02-12, 2w
+    Decision Trees :p2c, 2024-02-26, 2w
+    
+    section Phase 3
+    Bagging & Boosting :p3a, 2024-03-11, 2w
+    Hyperparameter Tuning :p3b, 2024-03-25, 1w
+    
+    section Phase 4
+    Clustering :p4a, 2024-04-01, 2w
+    Dimensionality Reduction :p4b, 2024-04-15, 1w
+    
+    section Phase 5
+    Time Series, NLP, Vision :p5a, 2024-04-22, 4w
+    Deep Learning :p5b, 2024-05-20, 3w
+    
+    section Phase 6
+    End-to-End Projects :p6a, 2024-06-10, 2w
 
 ---
 
