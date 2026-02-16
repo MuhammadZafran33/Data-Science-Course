@@ -69,6 +69,8 @@ pie title "Machine Learning Course Distribution"
 ---
 
 ## 📚 Learning Path Timeline
+
+
 ```mermaid
 timeline
     title 24-Week ML Learning Journey
@@ -90,6 +92,7 @@ timeline
         W21-23 : Deep Learning
     section Phase 6: Capstone
         W24 : End-to-End Projects
+
 ```
 
 ---
