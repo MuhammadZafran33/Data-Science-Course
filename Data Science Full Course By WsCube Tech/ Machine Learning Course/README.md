@@ -144,15 +144,15 @@ pie title "Machine Learning Course Distribution"
 
 ---
 
-## PHASE 6: DEEP LEARNING (Week 21-23)
-├─ W21: Neural Networks Fundamentals
-│  Progress: ███████████████████████████████░░░░░░░░░░░░░░░░░░░ 50% ⬆️
-│  Skills: Perceptron, MLP, Backpropagation
+## PHASE 6: DEEP LEARNING (Week 21-23)                                                                                         
+├─ W21: Neural Networks Fundamentals                                                                                                 
+│  Progress: ██████████████████████████████░░░░░░░░░░░░░░░░░░░ 50% ⬆️                                                                
+│  Skills: Perceptron, MLP, Backpropagation                                                                                              
 │
-├─ W22: CNN & RNN Architectures
-│  Progress: █████████████████████████░░░░░░░░░░░░░░░░░░░░░░░ 35% ⬆️
-│  Skills: Convolution, Pooling, LSTM, GRU
-│
+├─ W22: CNN & RNN Architectures                                                                                                      
+│  Progress: ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░ 35% ⬆️                                                                    
+│  Skills: Convolution, Pooling, LSTM, GRU                                                                                             
+│                                                                                                                                     
 └─ W23: Transformers & Transfer Learning
    Progress: ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░ 25% ⬆️
    Skills: Attention, BERT, Vision Transformers
