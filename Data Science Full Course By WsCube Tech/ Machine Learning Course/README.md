@@ -84,41 +84,41 @@ pie title "Machine Learning Course Distribution"
 
 ---
 
-## PHASE 2: SUPERVISED LEARNING (Week 5-10)
-├─ W5-6: Regression Mastery
+## PHASE 2: SUPERVISED LEARNING (Week 5-10)                                                                                  
+├─ W5-6: Regression Mastery                                                                                                
 │  Progress: ██████████████████████████░░░░░░░░░░░░░░ 28% ✅
 │  Skills: Linear Reg, Polynomial, R² Score
+│                                                                                                                          
+├─ W7-8: Classification                                                                                                                  
+│  Progress: ██████████████████████████████████░░░░░░ 42% ✅                                                                             
+│  Skills: Logistic Reg, Metrics, Probabilities                                                                                          
 │
-├─ W7-8: Classification
-│  Progress: ██████████████████████████████████░░░░░░ 42% ✅
-│  Skills: Logistic Reg, Metrics, Probabilities
-│
-└─ W9-10: Decision Trees
-   Progress: █████████████████████████████████████████ 56% ✅
-   Skills: Tree Building, Pruning, Feature Importance
+└─ W9-10: Decision Trees                                                                                                           
+   Progress: █████████████████████████████████████████ 56% ✅                                                                       
+   Skills: Tree Building, Pruning, Feature Importance                                                                               
    
-**Status:** ✅ Complete
+**Status:** ✅ Complete                                                                                                     
 
 ---
 
-## PHASE 3: ENSEMBLE METHODS (Week 11-13)
-├─ W11-12: Bagging & Boosting
-│  Progress: ██████████████████████████████████████████████ 70% ✅
-│  Skills: Random Forest, XGBoost, Voting, Stacking
+## PHASE 3: ENSEMBLE METHODS (Week 11-13)                                                                                        
+├─ W11-12: Bagging & Boosting                                                                                                         
+│  Progress: ██████████████████████████████████████████████ 70% ✅                                                                       
+│  Skills: Random Forest, XGBoost, Voting, Stacking                                                                                 
 │
-└─ W13: Hyperparameter Tuning
-   Progress: ███████████████████████████████████████████████░ 78% ✅
-   Skills: GridSearchCV, RandomSearch, Cross-Validation
+└─ W13: Hyperparameter Tuning                                                                                                          
+   Progress: ███████████████████████████████████████████████░ 78% ✅                                                                
+   Skills: GridSearchCV, RandomSearch, Cross-Validation                                                                               
    
-**Status:** ✅ Complete
+**Status:** ✅ Complete                                                                                                               
 
 ---
 
-## PHASE 4: UNSUPERVISED LEARNING (Week 14-16)
-├─ W14-15: Clustering
-│  Progress: ██████████████████████████████████████████████████░ 85% ✅
-│  Skills: K-Means, DBSCAN, Hierarchical, Silhouette Score
-│
+## PHASE 4: UNSUPERVISED LEARNING (Week 14-16)                                                                                      
+├─ W14-15: Clustering                                                                                                                 
+│  Progress: ██████████████████████████████████████████████████░ 85% ✅                                                                
+│  Skills: K-Means, DBSCAN, Hierarchical, Silhouette Score                                                                             
+│                                                                                                                                        
 └─ W16: Dimensionality Reduction
    Progress: ████████████████████████████████████████████████████░ 92% ✅
    Skills: PCA, t-SNE, UMAP, Feature Selection
