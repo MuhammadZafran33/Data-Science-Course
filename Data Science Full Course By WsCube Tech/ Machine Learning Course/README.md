@@ -116,11 +116,11 @@ pie title "Machine Learning Course Distribution"
 
 ## PHASE 4: UNSUPERVISED LEARNING (Week 14-16)                                                                                      
 ├─ W14-15: Clustering                                                                                                                 
-│  Progress: ██████████████████████████████████████████████████░ 85% ✅                                                                
+│  Progress: ██████████████████████████████████████████████████░ 85% ✅                                                                  
 │  Skills: K-Means, DBSCAN, Hierarchical, Silhouette Score                                                                             
-│                                                                                                                                        
-└─ W16: Dimensionality Reduction
-   Progress: ████████████████████████████████████████████████████░ 92% ✅
+│                                                                                                                                       
+└─ W16: Dimensionality Reduction                                                                                                    
+   Progress: ████████████████████████████████████████████████████░ 92% ✅                                                                
    Skills: PCA, t-SNE, UMAP, Feature Selection
    
 **Status:** ✅ Complete
@@ -146,15 +146,15 @@ pie title "Machine Learning Course Distribution"
 
 ## PHASE 6: DEEP LEARNING (Week 21-23)
 ├─ W21: Neural Networks Fundamentals
-│  Progress: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0% ⬆️
+│  Progress: ███████████████████████████████░░░░░░░░░░░░░░░░░░░ 50% ⬆️
 │  Skills: Perceptron, MLP, Backpropagation
 │
 ├─ W22: CNN & RNN Architectures
-│  Progress: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0% ⬆️
+│  Progress: █████████████████████████░░░░░░░░░░░░░░░░░░░░░░░ 35% ⬆️
 │  Skills: Convolution, Pooling, LSTM, GRU
 │
 └─ W23: Transformers & Transfer Learning
-   Progress: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0% ⬆️
+   Progress: ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░ 25% ⬆️
    Skills: Attention, BERT, Vision Transformers
    
 **Status:** ⬆️ Upcoming
