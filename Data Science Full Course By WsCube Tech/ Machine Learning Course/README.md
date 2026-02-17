@@ -151,11 +151,11 @@ pie title "Machine Learning Course Distribution"
 │
 ├─ W22: CNN & RNN Architectures                                                                                                      
 │  Progress: ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░ 35% ⬆️                                                                    
-│  Skills: Convolution, Pooling, LSTM, GRU                                                                                             
-│                                                                                                                                     
-└─ W23: Transformers & Transfer Learning
-   Progress: ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░ 25% ⬆️
-   Skills: Attention, BERT, Vision Transformers
+│  Skills: Convolution, Pooling, LSTM, GRU                                                                                               
+│                                                                                                                                        
+└─ W23: Transformers & Transfer Learning                                                                                                
+   Progress: ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░ 25% ⬆️                                                                   
+   Skills: Attention, BERT, Vision Transformers                                                                                       
    
 **Status:** ⬆️ Upcoming
 
