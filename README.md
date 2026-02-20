@@ -1,619 +1,284 @@
-# 📊 Data Science Full Course - WsCube Tech
-
 <div align="center">
 
-![Data Science](https://img.shields.io/badge/Data%20Science-Complete%20Course-blue?style=for-the-badge&logo=python)
-![Python](https://img.shields.io/badge/Python-3.8%2B-brightgreen?style=for-the-badge&logo=python)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
+<!-- ANIMATED HEADER BANNER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Data%20Science%20Course&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=From%20Zero%20to%20Data%20Scientist%20%F0%9F%9A%80&descAlignY=58&descSize=18&animation=fadeIn" />
 
-**Master the complete Data Science journey from fundamentals to advanced machine learning**
+<!-- BADGES ROW -->
+<p>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/pandas-Data%20Wrangling-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
+</p>
 
-[Course Curriculum](#-course-curriculum) • [Topics Covered](#-topics-covered) • [Getting Started](#-getting-started) • [Resources](#-resources)
+<p>
+  <img src="https://img.shields.io/github/stars/MuhammadZafran33/Data-Science-Course?style=social" />
+  <img src="https://img.shields.io/github/forks/MuhammadZafran33/Data-Science-Course?style=social" />
+  <img src="https://img.shields.io/github/last-commit/MuhammadZafran33/Data-Science-Course?color=blueviolet&style=flat-square" />
+</p>
+
+> **A comprehensive, hands-on journey through the complete Data Science pipeline — from raw data to production-ready models.**
 
 </div>
 
 ---
 
-## 🎯 About This Repository
+## 📚 Table of Contents
 
-This repository contains **comprehensive educational materials** for the **WsCube Tech Data Science Full Course**. It serves as a complete learning guide for aspiring data scientists, covering everything from basic Python programming to advanced machine learning algorithms.
-
-Whether you're a beginner looking to start your data science journey or an intermediate learner wanting to expand your skills, this course provides structured learning with hands-on projects and real-world applications.
-
----
-
-## 📈 Course Overview Dashboard
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│  📚 TOTAL MODULES          12+                                 │
-│  🎬 VIDEO LECTURES         100+                                │
-│  💻 HANDS-ON PROJECTS      15+                                 │
-│  🧠 CONCEPTS COVERED       50+                                 │
-│  ⏱️  TOTAL HOURS           27+                                │
-│  🏆 SKILL LEVEL            Beginner → Advanced                 │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+- [🌟 About the Course](#-about-the-course)
+- [🗺️ Learning Roadmap](#-learning-roadmap)
+- [📦 Course Modules](#-course-modules)
+- [🛠️ Tech Stack](#-tech-stack)
+- [📊 Skills You'll Master](#-skills-youll-master)
+- [🚀 Getting Started](#-getting-started)
+- [📁 Folder Structure](#-folder-structure)
+- [🏆 Projects & Milestones](#-projects--milestones)
+- [📬 Connect](#-connect)
 
 ---
 
-## 🗂️ Course Curriculum
+## 🌟 About the Course
 
-### Learning Progression
+This repository is a **complete, self-paced Data Science curriculum** structured to take you from the fundamentals of Python all the way through advanced machine learning and real-world deployment.
 
-```
-┌──────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│  FOUNDATION          ANALYSIS          MODELING        DEPLOYMENT
-│  ────────────        ────────────      ────────────     ──────────
-│      ↓                   ↓                  ↓                ↓
-│  Python Basics    Data Cleaning      ML Algorithms    Production ML
-│  Statistics       EDA               Deep Learning      Model Deploy
-│  Libraries        Visualization     NLP               Real Projects
-│                                                                  │
-└──────────────────────────────────────────────────────────────────┘
-```
+Whether you're a **complete beginner** or someone looking to **level up** their skills, every module is designed with clarity, code, and practice in mind.
+
+| 🎯 Goal | 📅 Duration | 🧑‍💻 Level | 💡 Format |
+|--------|-----------|---------|---------|
+| Become a job-ready Data Scientist | 12–16 Weeks | Beginner → Advanced | Notebooks + Projects |
 
 ---
 
-## 📚 Topics Covered
+## 🗺️ Learning Roadmap
 
-### 1️⃣ **Python Fundamentals** 🐍
-| Topic | Subtopics | Duration |
-|-------|-----------|----------|
-| **Variables & Data Types** | Strings, Lists, Tuples, Dictionaries | 3 hrs |
-| **Control Flow** | If-Else, Loops, Functions | 4 hrs |
-| **Object-Oriented Programming** | Classes, Objects, Inheritance | 5 hrs |
-| **File Handling** | Reading/Writing, CSV, JSON | 2 hrs |
-| **Error Handling** | Exceptions, Debugging | 2 hrs |
+```mermaid
+flowchart LR
+    A([🐍 Python Basics]) --> B([📊 Data Analysis\nNumPy & Pandas])
+    B --> C([🎨 Data Visualization\nMatplotlib & Seaborn])
+    C --> D([🧮 Statistics &\nProbability])
+    D --> E([🤖 Machine Learning\nScikit-learn])
+    E --> F([🧠 Deep Learning\nTensorFlow / Keras])
+    F --> G([🚀 Deployment\nFlask / Streamlit])
 
-### 2️⃣ **Libraries & Tools** 📦
-| Library | Purpose | Topics |
-|---------|---------|--------|
-| **NumPy** | Numerical Computing | Arrays, Matrix Operations, Broadcasting |
-| **Pandas** | Data Manipulation | DataFrames, Data Cleaning, Merging |
-| **Matplotlib** | Visualization | Line/Bar Charts, Scatter Plots, Heatmaps |
-| **Seaborn** | Statistical Viz | Distribution Plots, Correlation Analysis |
-| **Scikit-learn** | Machine Learning | Preprocessing, Models, Evaluation |
-
-### 3️⃣ **Statistics & Mathematics** 📐
-| Concept | Key Topics | Application |
-|---------|-----------|-------------|
-| **Descriptive Stats** | Mean, Median, Std Dev, Percentiles | Data Understanding |
-| **Probability** | Distributions, Bayes Theorem, Z-Tests | Statistical Inference |
-| **Inferential Stats** | Hypothesis Testing, Confidence Intervals | Making Predictions |
-| **Linear Algebra** | Vectors, Matrices, Eigenvalues | ML Algorithms |
-
-### 4️⃣ **Data Analysis & Exploration** 🔍
-- ✅ Exploratory Data Analysis (EDA)
-- ✅ Data Cleaning & Preprocessing
-- ✅ Handling Missing Values
-- ✅ Outlier Detection & Treatment
-- ✅ Feature Engineering
-- ✅ Data Visualization Best Practices
-- ✅ Statistical Insights
-
-### 5️⃣ **Machine Learning - Supervised** 🤖
-| Algorithm Type | Algorithms | Use Cases |
-|---|---|---|
-| **Regression** | Linear, Polynomial, Ridge, Lasso | Price Prediction, Forecasting |
-| **Classification** | Logistic, Decision Trees, Random Forest | Spam Detection, Medical Diagnosis |
-| **Ensemble Methods** | Gradient Boosting, XGBoost, LightGBM | Competition Winning Models |
-| **Support Vector** | SVM, SVR | Classification, Regression |
-
-### 6️⃣ **Machine Learning - Unsupervised** 🎲
-| Technique | Algorithms | Applications |
-|---|---|---|
-| **Clustering** | K-Means, DBSCAN, Hierarchical | Customer Segmentation |
-| **Dimensionality Reduction** | PCA, T-SNE | Visualization, Feature Reduction |
-| **Association Rules** | Apriori, Eclat | Market Basket Analysis |
-
-### 7️⃣ **Deep Learning & Neural Networks** 🧠
-- 🔗 Neural Network Fundamentals
-- 🔗 Activation Functions & Backpropagation
-- 🔗 Convolutional Neural Networks (CNN)
-- 🔗 Recurrent Neural Networks (RNN/LSTM)
-- 🔗 Transfer Learning
-- 🔗 PyTorch & TensorFlow/Keras
-
-### 8️⃣ **Natural Language Processing** 💬
-| Component | Topics | Projects |
-|---|---|---|
-| **Text Preprocessing** | Tokenization, Lemmatization, Stop Words | Sentiment Analysis |
-| **Feature Extraction** | TF-IDF, Word2Vec, Embeddings | Text Classification |
-| **Models** | BERT, GPT, RNNs | Machine Translation |
-
-### 9️⃣ **Time Series Analysis** ⏰
-- 📈 Time Series Decomposition
-- 📈 ARIMA, SARIMA Models
-- 📈 Prophet for Forecasting
-- 📈 Seasonal & Trend Analysis
-- 📈 Stock Price, Weather Predictions
-
-### 🔟 **Data Visualization** 🎨
-| Tool | Capabilities | Best For |
-|-----|---|---|
-| **Matplotlib** | Basic to Advanced Plots | Fine-grained Control |
-| **Seaborn** | Statistical Visualizations | Distribution & Relationships |
-| **Plotly** | Interactive Dashboards | Web-based Presentations |
-| **Tableau/Power BI** | Business Intelligence | Enterprise Analytics |
-
-### 1️⃣1️⃣ **SQL & Databases** 🗄️
-- 🔐 SQL Fundamentals (SELECT, JOIN, GROUP BY)
-- 🔐 Database Design & Normalization
-- 🔐 Aggregations & Window Functions
-- 🔐 NoSQL Basics (MongoDB, Redis)
-- 🔐 Integration with Python
-
-### 1️⃣2️⃣ **Real-World Projects** 🏆
-| Project | Skills Applied | Difficulty |
-|---------|---|---|
-| **House Price Prediction** | Regression, Feature Engineering | ⭐⭐ |
-| **Iris Classification** | Classification, Data Exploration | ⭐ |
-| **Customer Churn Prediction** | Binary Classification, Evaluation | ⭐⭐⭐ |
-| **Movie Recommendation System** | Collaborative Filtering, Similarity | ⭐⭐⭐ |
-| **Sentiment Analysis** | NLP, Text Processing, Classification | ⭐⭐⭐⭐ |
-| **Stock Price Forecasting** | Time Series, LSTM, Prediction | ⭐⭐⭐⭐ |
-
----
-
-## 🎓 Learning Outcomes
-
-By completing this course, you will be able to:
-
-```
-✅ Master Python programming from basics to advanced OOP
-✅ Perform exploratory data analysis on any dataset
-✅ Clean and preprocess real-world messy data
-✅ Apply appropriate statistical techniques for inference
-✅ Build regression and classification models
-✅ Implement ensemble methods and boosting algorithms
-✅ Develop deep learning neural networks
-✅ Process and analyze natural language
-✅ Work with time series forecasting
-✅ Deploy machine learning models to production
-✅ Solve real-world business problems with data
-✅ Communicate insights through visualizations
+    style A fill:#667eea,stroke:#none,color:#fff
+    style B fill:#764ba2,stroke:#none,color:#fff
+    style C fill:#f64f59,stroke:#none,color:#fff
+    style D fill:#c471ed,stroke:#none,color:#fff
+    style E fill:#12c2e9,stroke:#none,color:#fff
+    style F fill:#f64f59,stroke:#none,color:#fff
+    style G fill:#667eea,stroke:#none,color:#fff
 ```
 
 ---
 
-## 📊 Skills Progression Map
+## 📦 Course Modules
 
+### Module Breakdown & Progress
+
+```mermaid
+gantt
+    title Course Curriculum Timeline
+    dateFormat  YYYY-MM-DD
+    section Foundations
+    Python Basics           :done,    m1, 2024-01-01, 7d
+    NumPy & Pandas          :done,    m2, after m1, 7d
+    section Visualization
+    Matplotlib & Seaborn    :done,    m3, after m2, 5d
+    Plotly Interactive Viz  :done,    m4, after m3, 3d
+    section Statistics
+    Probability & Stats     :active,  m5, after m4, 7d
+    Hypothesis Testing      :         m6, after m5, 5d
+    section Machine Learning
+    Supervised Learning     :         m7, after m6, 10d
+    Unsupervised Learning   :         m8, after m7, 7d
+    Model Evaluation        :         m9, after m8, 5d
+    section Advanced
+    Deep Learning Intro     :         m10, after m9, 10d
+    NLP Basics              :         m11, after m10, 7d
+    Deployment              :         m12, after m11, 7d
 ```
-                           EXPERT LEVEL
-                              │
-                        ┌─────┴─────┐
-                        │           │
-                   Advanced ML   NLP & CV
-                        │           │
-                   Data Science────────Advanced Analytics
-                        │           │
-                        └─────┬─────┘
-                              │
-                       INTERMEDIATE LEVEL
-                              │
-                        ┌─────┴─────┐
-                        │           │
-                      ML Basics  Stats & EDA
-                        │           │
-                        └─────┬─────┘
-                              │
-                       FOUNDATIONAL LEVEL
-                              │
-                         Python + SQL
+
+### 📋 Detailed Module Overview
+
+| # | Module | Topics Covered | Notebooks | Difficulty |
+|---|--------|---------------|-----------|------------|
+| 01 | 🐍 **Python Fundamentals** | Variables, loops, functions, OOP | 8 | `⭐ Beginner` |
+| 02 | 🔢 **NumPy** | Arrays, broadcasting, linear algebra | 6 | `⭐ Beginner` |
+| 03 | 🐼 **Pandas** | DataFrames, groupby, merging, cleaning | 10 | `⭐⭐ Easy` |
+| 04 | 📊 **Matplotlib & Seaborn** | Line, bar, heatmap, pairplot | 7 | `⭐⭐ Easy` |
+| 05 | 📉 **Statistics** | Distributions, CLT, z-scores, p-values | 8 | `⭐⭐⭐ Medium` |
+| 06 | 🤖 **Supervised ML** | Regression, classification, SVM, trees | 12 | `⭐⭐⭐ Medium` |
+| 07 | 🌀 **Unsupervised ML** | K-Means, PCA, DBSCAN | 7 | `⭐⭐⭐ Medium` |
+| 08 | 🧠 **Deep Learning** | ANN, CNN, RNN with Keras | 9 | `⭐⭐⭐⭐ Hard` |
+| 09 | 💬 **NLP** | Tokenization, TF-IDF, sentiment analysis | 6 | `⭐⭐⭐⭐ Hard` |
+| 10 | 🚀 **Deployment** | Flask APIs, Streamlit dashboards | 4 | `⭐⭐⭐⭐⭐ Expert` |
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Category | Tools |
+|----------|-------|
+| **Language** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **Notebooks** | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) ![Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white) |
+| **Data** | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) |
+| **Viz** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) |
+| **ML** | ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
+| **DL** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) |
+| **Deployment** | ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
+
+</div>
+
+---
+
+## 📊 Skills You'll Master
+
+```mermaid
+pie title Skills Distribution Across the Course
+    "Python & Programming" : 20
+    "Data Wrangling" : 18
+    "Visualization" : 12
+    "Statistics & Math" : 15
+    "Machine Learning" : 22
+    "Deep Learning" : 8
+    "Deployment" : 5
+```
+
+### 🎓 Competency Map
+
+```mermaid
+quadrantChart
+    title Skills: Importance vs Difficulty
+    x-axis Low Difficulty --> High Difficulty
+    y-axis Low Importance --> High Importance
+    quadrant-1 Master First
+    quadrant-2 Core Skills
+    quadrant-3 Optional Extras
+    quadrant-4 Challenge Zone
+    Python Basics: [0.2, 0.95]
+    Pandas: [0.3, 0.9]
+    Matplotlib: [0.25, 0.7]
+    Statistics: [0.55, 0.85]
+    Scikit-learn: [0.5, 0.92]
+    Deep Learning: [0.8, 0.75]
+    NLP: [0.75, 0.7]
+    Deployment: [0.7, 0.8]
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- 💻 Basic computer knowledge
-- 🎯 Passion for learning data science
-- ⏰ Dedication (3-4 hours per week recommended)
-- No prior programming experience required!
+### 1. Clone the Repository
 
-### Installation & Setup
-
-#### 1. **Clone the Repository**
 ```bash
 git clone https://github.com/MuhammadZafran33/Data-Science-Course.git
 cd Data-Science-Course
 ```
 
-#### 2. **Install Python** (if not already installed)
-```bash
-# Download from python.org (3.8 or higher)
-python --version  # Verify installation
-```
+### 2. Create a Virtual Environment
 
-#### 3. **Create Virtual Environment**
 ```bash
-# Windows
 python -m venv venv
-venv\Scripts\activate
-
-# Linux/Mac
-python3 -m venv venv
-source venv/bin/activate
+source venv/bin/activate        # macOS / Linux
+venv\Scripts\activate           # Windows
 ```
 
-#### 4. **Install Required Libraries**
+### 3. Install All Dependencies
+
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn jupyter
-pip install tensorflow keras torch  # For Deep Learning
-pip install nltk spacy  # For NLP
+pip install -r requirements.txt
 ```
 
-#### 5. **Launch Jupyter Notebook**
+### 4. Launch Jupyter Notebook
+
 ```bash
 jupyter notebook
 ```
 
+> 💡 **Tip:** Prefer the cloud? Open any notebook instantly in [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
+
 ---
 
-## 📂 Repository Structure
+## 📁 Folder Structure
 
 ```
-Data-Science-Course/
-│
-├── 📁 Data Science Full Course By WsCube Tech/
-│   ├── 🐍 01_Python_Basics/
-│   │   ├── Variables & Data Types
-│   │   ├── Control Flow
-│   │   ├── Functions & Modules
-│   │   └── OOP Concepts
-│   │
-│   ├── 📚 02_Libraries_and_Tools/
-│   │   ├── NumPy Fundamentals
-│   │   ├── Pandas Data Manipulation
-│   │   ├── Matplotlib Visualization
-│   │   └── Seaborn Statistical Plots
-│   │
-│   ├── 📊 03_Statistics_and_Math/
-│   │   ├── Descriptive Statistics
-│   │   ├── Probability Distributions
-│   │   ├── Hypothesis Testing
-│   │   └── Linear Algebra Basics
-│   │
-│   ├── 🔍 04_Data_Analysis_and_EDA/
-│   │   ├── Data Cleaning Techniques
-│   │   ├── Handling Missing Values
-│   │   ├── Feature Engineering
-│   │   └── Exploratory Analysis
-│   │
-│   ├── 🤖 05_Machine_Learning/
-│   │   ├── Regression Models
-│   │   ├── Classification Models
-│   │   ├── Ensemble Methods
-│   │   ├── Clustering Algorithms
-│   │   └── Model Evaluation Metrics
-│   │
-│   ├── 🧠 06_Deep_Learning/
-│   │   ├── Neural Network Basics
-│   │   ├── CNN for Images
-│   │   ├── RNN & LSTM
-│   │   └── Transfer Learning
-│   │
-│   ├── 💬 07_NLP/
-│   │   ├── Text Preprocessing
-│   │   ├── Sentiment Analysis
-│   │   ├── Text Classification
-│   │   └── Named Entity Recognition
-│   │
-│   ├── ⏰ 08_Time_Series/
-│   │   ├── Time Series Basics
-│   │   ├── ARIMA Modeling
-│   │   ├── Forecasting Methods
-│   │   └── Seasonal Decomposition
-│   │
-│   ├── 🎨 09_Visualization/
-│   │   ├── Plot Types
-│   │   ├── Dashboard Creation
-│   │   └── Best Practices
-│   │
-│   ├── 🗄️ 10_SQL_and_Databases/
-│   │   ├── SQL Basics
-│   │   ├── Joins & Aggregations
-│   │   └── Database Integration
-│   │
-│   ├── 🏆 11_Real_World_Projects/
-│   │   ├── Prediction Projects
-│   │   ├── Classification Projects
-│   │   ├── NLP Projects
-│   │   └── Time Series Projects
-│   │
-│   └── 📝 12_Portfolio_and_Capstone/
-│       ├── Portfolio Building
-│       ├── Interview Questions
-│       └── Capstone Project Guide
-│
-└── 📄 README.md (This file!)
+📦 Data-Science-Course
+├── 📂 01_Python_Basics
+│   ├── 📓 01_variables_and_types.ipynb
+│   ├── 📓 02_control_flow.ipynb
+│   └── 📓 03_functions_and_oop.ipynb
+├── 📂 02_NumPy
+│   ├── 📓 01_arrays_and_indexing.ipynb
+│   └── 📓 02_linear_algebra.ipynb
+├── 📂 03_Pandas
+│   ├── 📓 01_dataframes.ipynb
+│   ├── 📓 02_data_cleaning.ipynb
+│   └── 📓 03_groupby_and_merge.ipynb
+├── 📂 04_Visualization
+│   ├── 📓 01_matplotlib_basics.ipynb
+│   └── 📓 02_seaborn_plots.ipynb
+├── 📂 05_Statistics
+│   └── 📓 01_probability_and_distributions.ipynb
+├── 📂 06_Machine_Learning
+│   ├── 📓 01_linear_regression.ipynb
+│   ├── 📓 02_classification.ipynb
+│   └── 📓 03_model_evaluation.ipynb
+├── 📂 07_Deep_Learning
+│   └── 📓 01_neural_networks_keras.ipynb
+├── 📂 08_NLP
+│   └── 📓 01_text_processing.ipynb
+├── 📂 09_Projects
+│   ├── 📁 01_EDA_Project
+│   ├── 📁 02_ML_Project
+│   └── 📁 03_Capstone
+├── 📄 requirements.txt
+└── 📄 README.md
 ```
 
 ---
 
-## 💡 Key Concepts at a Glance
+## 🏆 Projects & Milestones
 
-### Supervised vs Unsupervised Learning
-```
-MACHINE LEARNING
-│
-├─ SUPERVISED (Labeled Data)
-│  ├─ Regression: Predict continuous values
-│  │  └─ Techniques: Linear, Polynomial, SVM, Ridge/Lasso
-│  │
-│  └─ Classification: Predict categories
-│     └─ Techniques: Logistic, Decision Trees, Random Forest
-│
-└─ UNSUPERVISED (Unlabeled Data)
-   ├─ Clustering: Group similar data
-   │  └─ Techniques: K-Means, DBSCAN, Hierarchical
-   │
-   └─ Dimensionality Reduction: Reduce features
-      └─ Techniques: PCA, T-SNE, Autoencoders
-```
-
-### Model Evaluation Metrics
-| Metric | Formula | When to Use |
-|---|---|---|
-| **Accuracy** | (TP+TN)/(Total) | Balanced Classes |
-| **Precision** | TP/(TP+FP) | False Positives Matter |
-| **Recall** | TP/(TP+FN) | False Negatives Matter |
-| **F1-Score** | 2×(Precision×Recall)/(P+R) | Imbalanced Data |
-| **AUC-ROC** | Area Under Curve | Binary Classification |
-| **RMSE** | √(Σ(y-ŷ)²/n) | Regression Tasks |
+| # | Project | Description | Skills Used | Status |
+|---|---------|-------------|-------------|--------|
+| 🥉 | **Exploratory Data Analysis** | Analyze a real-world dataset end-to-end | Pandas, Seaborn | ✅ Done |
+| 🥈 | **Predictive ML Model** | Build & tune a classification model | Scikit-learn | ✅ Done |
+| 🥇 | **Capstone Project** | Full pipeline: data → model → dashboard | All skills | 🚧 In Progress |
 
 ---
 
-## 📖 How to Use This Repository
+## 📈 Course Progress Overview
 
-### For Beginners
-1. Start with **Python Basics** section
-2. Move to **Libraries and Tools** (NumPy, Pandas)
-3. Learn **Statistics and Math** foundations
-4. Practice with **Data Analysis & EDA**
-5. Explore **Machine Learning** fundamentals
-
-### For Intermediate Learners
-1. Review key concepts in relevant sections
-2. Focus on **Advanced ML Algorithms**
-3. Practice **Real-World Projects**
-4. Explore **Deep Learning** applications
-5. Build your portfolio
-
-### For Advanced Learners
-1. Study **Advanced Architectures** (Transformers, GANs)
-2. Implement **Production-Ready** solutions
-3. Contribute to the community
-4. Work on **Capstone Projects**
-5. Deploy models to production
-
----
-
-## 🎯 Study Tips & Best Practices
-
-### ✨ Effective Learning Strategy
-- **Consistency**: Study 3-4 hours per week regularly
-- **Hands-On**: Code along with tutorials, don't just watch
-- **Practice**: Solve problems independently after learning concepts
-- **Projects**: Apply knowledge to real-world datasets
-- **Documentation**: Take notes and create your own notes
-- **Community**: Join forums, participate in discussions
-- **Review**: Revisit concepts periodically
-
-### 📈 Progress Tracking
-```
-Week 1-2:   Foundations        ████░░░░░░░░░░░ 25%
-Week 3-4:   Basic Libraries    ████████░░░░░░░ 50%
-Week 5-8:   Statistics & ML    ████████████░░░ 75%
-Week 9-12:  Projects & Depth   ████████████████ 100%
+```mermaid
+xychart-beta
+    title "Notebooks per Module"
+    x-axis ["Python", "NumPy", "Pandas", "Viz", "Stats", "ML", "Unsup ML", "Deep L", "NLP", "Deploy"]
+    y-axis "Number of Notebooks" 0 --> 15
+    bar [8, 6, 10, 7, 8, 12, 7, 9, 6, 4]
 ```
 
 ---
 
-## 🔗 Useful Resources
-
-### 📚 Documentation
-- [Python Official Docs](https://docs.python.org/3/) - Official Python documentation
-- [NumPy Docs](https://numpy.org/doc/) - Numerical computing library
-- [Pandas Docs](https://pandas.pydata.org/docs/) - Data manipulation
-- [Scikit-learn Docs](https://scikit-learn.org/stable/) - Machine learning
-- [TensorFlow Docs](https://www.tensorflow.org/api_docs) - Deep learning
-
-### 🎓 Learning Platforms
-- [Kaggle](https://kaggle.com) - Datasets and competitions
-- [GitHub](https://github.com) - Code repositories and projects
-- [Stack Overflow](https://stackoverflow.com) - Q&A for coding
-- [Medium](https://medium.com) - Technical articles
-- [Towards Data Science](https://towardsdatascience.com) - DS blog
-
-### 📊 Practice Datasets
-- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/) - 500+ datasets
-- [Kaggle Datasets](https://www.kaggle.com/datasets) - Community datasets
-- [Google Dataset Search](https://datasetsearch.research.google.com/) - General search
-- [Gov Datasets](https://www.data.gov/) - Public government data
-
-### 🎬 Video Tutorials
-- **WsCube Tech** - Original course (Hindi & English)
-- [StatQuest with Josh Starmer](https://www.youtube.com/@statquest) - Statistics explanations
-- [Sentdex](https://www.youtube.com/@sentdex) - Python & ML tutorials
-- [3Blue1Brown](https://www.youtube.com/@3blue1brown) - Math visualizations
-
----
-
-## 🏆 Achievements & Certifications
-
-### Upon Completion, You'll Be Able To:
-```
-┌─────────────────────────────────────────┐
-│ DATA SCIENCE COMPETENCY CERTIFICATE     │
-├─────────────────────────────────────────┤
-│                                         │
-│ ✓ Data Analysis & Visualization        │
-│ ✓ Machine Learning Algorithms          │
-│ ✓ Deep Learning & Neural Networks      │
-│ ✓ Natural Language Processing          │
-│ ✓ Time Series Forecasting              │
-│ ✓ Real-World Project Execution         │
-│ ✓ Production-Ready Model Deployment    │
-│                                         │
-│ Issued to: Data Scientist (You!)      │
-│ Difficulty: Beginner to Advanced       │
-│                                         │
-└─────────────────────────────────────────┘
-```
-
----
-
-## 💬 Common Questions
-
-### **Q: Do I need prior programming experience?**
-**A:** No! This course starts from absolute basics and progresses gradually. However, basic computer literacy is helpful.
-
-### **Q: How long does it take to complete?**
-**A:** Most learners complete it in 3-6 months with 3-4 hours/week study. This can vary based on your pace and prior experience.
-
-### **Q: Can I use this for a job?**
-**A:** Absolutely! The projects and skills are industry-relevant and will help you build a strong portfolio.
-
-### **Q: Is this course free?**
-**A:** Yes! This educational repository is completely free to use and learn from.
-
-### **Q: What should I do after completing?**
-**A:** Build your own projects, contribute to open-source, compete on Kaggle, or apply to data science positions.
-
----
-
-## 🤝 Contributing
-
-We encourage contributions! Here's how you can help:
-
-### Ways to Contribute:
-- 🐛 Report bugs or issues
-- 💡 Suggest improvements
-- 📝 Add new examples
-- 📚 Improve documentation
-- 🔧 Fix code snippets
-- 🎨 Enhance visualizations
-
-### Steps to Contribute:
-```bash
-1. Fork the repository
-2. Create a feature branch (git checkout -b feature/improvement)
-3. Make your changes
-4. Commit changes (git commit -m 'Add improvement')
-5. Push to branch (git push origin feature/improvement)
-6. Open a Pull Request
-```
-
----
-
-## 📞 Support & Community
-
-### Get Help:
-- 📧 **Email**: zafrankhaan33@gmail.com
-- 💬 **GitHub Issues**: Open an issue in the repository
-- 🤝 **Discussions**: Engage in community discussions
-- 📱 **Social Media**: Connect on LinkedIn, Twitter, etc.
-
-### Join the Community:
-- 💡 Share your projects
-- 🤝 Help other learners
-- 🌟 Star this repository if it helped you!
-- 📢 Spread the word!
-
----
-
-## 📋 Roadmap
-
-### Current Status: 🟢 Active Development
-
-```
-Q1 2024    ✅ Python & Libraries Foundation
-Q2 2024    ✅ Statistics & ML Algorithms
-Q3 2024    ✅ Deep Learning & NLP
-Q4 2024    🔄 Projects & Capstone (In Progress)
-2025       📅 Advanced Topics & Updates
-```
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** - see the LICENSE file for details.
-
-```
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the "Software"),
-to deal in the Software without restriction, including without limitation
-the rights to use, copy, modify, merge, publish, distribute, sublicense,
-and/or sell copies of the Software, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included
-in all copies or substantial portions of the Software.
-```
-
----
-
-## 🙏 Acknowledgments
-
-- 🎓 **WsCube Tech** for the excellent course structure
-- 👥 **Community Contributors** for improvements and feedback
-- 📚 **Open Source Community** for amazing libraries and resources
-- 💪 **Learners like You** for making this journey possible!
-
----
-
-## 📊 Repository Statistics
-
-| Metric | Value |
-|--------|-------|
-| **Total Content** | 30+ Hours |
-| **Code Files** | 100+ |
-| **Projects** | 15+ |
-| **Topics** | 50+ |
-| **Last Updated** | 2026 |
-| **Community Size** | Growing! 🚀 |
-
----
-
-## 🌟 Star This Repo!
-
-If you found this course helpful, please consider **⭐ starring** this repository! It helps others discover this resource and motivates us to create better content.
-
-```
-If you learned something → ⭐ Star
-If you built a project → 🍴 Fork  
-If you want to improve → 📝 Contribute
-If you want to stay updated → 👁️ Watch
-```
-
----
+## 📬 Connect
 
 <div align="center">
 
-### Happy Learning! 🎉
-
-**"Data Science is the art of turning data into insights and insights into action!"**
-
----
-
-Made with ❤️ by [Muhammad Zafran](https://github.com/MuhammadZafran33)
-
-[⬆️ Back to Top](#-data-science-full-course---wscube-tech)
+[![GitHub](https://img.shields.io/badge/GitHub-MuhammadZafran33-181717?style=for-the-badge&logo=github)](https://github.com/MuhammadZafran33)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:your@email.com)
 
 </div>
 
 ---
 
-## 📅 Last Updated
-**January 2026** | Repository Version 1.0 | Active & Maintained ✅
+<div align="center">
 
----
+**⭐ Star this repo if it helped you! Every star fuels more content. ⭐**
 
-*Disclaimer: This repository contains educational content for learning purposes. Always verify information from official sources.*
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=120&section=footer" />
+
+</div>
